@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="todo-header">
+      <h1 class="todo-header__text">To-Do List</h1>
+    </div>
+    <div class="todo-body">
+      <form class="todo-body__form" id="todo-form">
+        <input
+          placeholder="Add new task"
+          type="text"
+          class="todo-body__input"
+        />
+        <button type="submit" class="todo-body__btn"></button>
+      </form>
+    </div>
+
+    <ul class="todo-lists">
+      <!-- <li class="todo-list">
+        <span>apple</span>
+        <a class="todo-list__delateBtn"><i class="fas fa-times"></i></a>
+        <a class="todo-list__checkBtn"><i class="fas fa-check"></i></a>
+      </li> -->
+    </ul>
+    <a class="todo-btn__clearBtn" href="#">Clear All</a>
+    <script src="main.js"></script>
+  </body>
+</html>
